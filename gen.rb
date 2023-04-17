@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-(1..201).each do |i|
+(1..26).each do |i|
   if (i % 2).zero?
-    name = "%003d.txt" % i
+    name = "%003d.lfs" % i
   else
     name = "%003d.txt" % i
   end
